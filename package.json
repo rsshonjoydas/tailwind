@@ -1,0 +1,15 @@
+{
+  "name": "tailwind-css",
+  "version": "1.0.0",
+  "description": "Tailwind CSS",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "tailwindcss -i ./src/tailwind.css -o ./dist/tailwind.css -w"
+  },
+  "keywords": [],
+  "author": "RS Shonjoy",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^2.2.17"
+  }
+}
