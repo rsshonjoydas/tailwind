@@ -23,3 +23,9 @@
     @apply text-2xl;
   }
 }
+
+@layer utilities {
+  .text-body {
+    font-size: 18px;
+  }
+}
