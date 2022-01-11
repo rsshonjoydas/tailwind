@@ -4,12 +4,18 @@
   "description": "Tailwind CSS",
   "main": "index.js",
   "scripts": {
-    "build-css": "tailwindcss -i ./src/tailwind.css -o ./dist/tailwind.css -w"
+    "build-css": "tailwindcss -i ./src/tailwind.css -o ./dist/tailwind.css -w",
+    "build-p": "postcss ./src/tailwind.css -o ./dist/tailwind.css -w"
   },
   "keywords": [],
   "author": "RS Shonjoy",
   "license": "ISC",
   "devDependencies": {
     "tailwindcss": "^2.2.17"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.4.2",
+    "postcss": "^8.4.5",
+    "postcss-cli": "^9.1.0"
   }
 }

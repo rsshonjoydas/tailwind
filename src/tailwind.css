@@ -47,3 +47,7 @@
     background-image: linear-gradient(blue, green);
   }
 }
+
+.textBody {
+  font-size: 18px;
+}
