@@ -17,3 +17,9 @@
     @apply border-green-200 text-green-600 hover:bg-green-600 focus:ring-green-600;
   }
 }
+
+@layer base {
+  h1 {
+    @apply text-2xl;
+  }
+}
