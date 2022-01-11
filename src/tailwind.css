@@ -29,3 +29,9 @@
     font-size: 18px;
   }
 }
+
+@variants hover, focus {
+  .rotate-0 {
+    transform: rotate(0deg);
+  }
+}
