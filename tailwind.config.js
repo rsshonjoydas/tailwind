@@ -1,3 +1,5 @@
+const defaultTheme = require("tailwindcss/defaultTheme")
+
 module.exports = {
   mode: "jit",
   purge: ["./src/**/*.{html,js,jsx,ts,tsx}"],
@@ -13,6 +15,10 @@ module.exports = {
         }
       }
     },
+    fontFamily: {
+      sans: ["Roboto", ...defaultTheme.fontFamily.sans],
+      cursive: "Moon Dance"
+    }
   },
   variants: {
     extend: {},
